@@ -1,0 +1,118 @@
+body {
+    overflow: hidden; /* Hide scroll bars on the body element */
+  }
+.Mist{
+    background-image: url(https://images.pexels.com/photos/158672/fog-forest-mountain-world-clouds-158672.jpeg?cs=srgb&dl=pexels-pixabay-158672.jpg&fm=jpg);
+    position: absolute;
+  top: 0; /* Position it right after the weather details */
+  left: 0; /* Align it to the left edge */
+  width: 100%; /* Make it span the whole width */
+  height: 100%;
+  z-index: 1;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center center;
+  
+  scrollbar-width: none;
+  
+
+}
+
+.cloudy{
+    background-image: url(https://images.freeimages.com/images/large-previews/294/partly-cloudy-1173077.jpg);
+    position: absolute;
+  top: 0; /* Position it right after the weather details */
+  left: 0; /* Align it to the left edge */
+  width: 100%; /* Make it span the whole width */
+  height: 100%;
+  z-index: 1;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center center;
+  
+  scrollbar-width: none;
+
+}
+
+.rain{
+    background-image: url(https://i.ytimg.com/vi/ieULeXtyRms/maxresdefault.jpg);
+    position: absolute;
+  top: 0; /* Position it right after the weather details */
+  left: 0; /* Align it to the left edge */
+  width: 100%; /* Make it span the whole width */
+  height: 100%;
+  z-index: 1;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center center;
+  
+  scrollbar-width: none;
+}
+
+.Sunny{
+    background-image: url(https://i2-prod.examinerlive.co.uk/incoming/article10372520.ece/ALTERNATES/s1227b/JS75768352.jpg);
+    position: absolute;
+  top: 0; /* Position it right after the weather details */
+  left: 0; /* Align it to the left edge */
+  width: 100%; /* Make it span the whole width */
+  height: 100%;
+  z-index: 1;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center center;
+  
+  scrollbar-width: none;
+
+}
+
+.Clear{
+    background-image: url(https://i2-prod.examinerlive.co.uk/incoming/article10372520.ece/ALTERNATES/s1227b/JS75768352.jpg);
+    position: absolute;
+  top: 0; /* Position it right after the weather details */
+  left: 0; /* Align it to the left edge */
+  width: 100%; /* Make it span the whole width */
+  height: 100%;
+  z-index: 1;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center center;
+  
+  scrollbar-width: none;
+}
+
+.reg{
+  font-size: 45px;
+  font-weight: 300;
+}
+
+.temp{
+  font-size: 35px;
+}
+
+.other{
+  font-size: 25px;
+}
+
+.weather-container {
+ margin-top: 5px;
+    position: relative;
+    width: 100vw; /* Set width to full viewport width */
+  height: 90vh;
+  overflow: hidden;
+  }
+  
+  .weather-details {
+   margin-top: 13%;
+   margin-left: 37%;
+    position: absolute;
+    text-align:center;
+    top: 0;
+    left: 0;
+    z-index: 2; /* Ensure the text is on top of the "sunny" div */
+  }
+
+  .navC{
+    text-decoration: none;
+    color: black;
+    margin-right:17px ;
+  }

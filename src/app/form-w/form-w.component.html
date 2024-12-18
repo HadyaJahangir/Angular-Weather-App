@@ -1,0 +1,49 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-5" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto me-5">
+        <a routerLink="" class="navC">Home</a>
+        <a routerLink="location" class="navC">Check Weather</a>
+        <!-- <a routerLink="weather">Pricing</a> -->
+       
+      </div>
+    </div>
+  </div>
+</nav>
+<div class='body'>
+ 
+    <form (ngSubmit)="getWeather($event)" >
+        <div class="parent">
+        <div class="outer">
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="cityInput" class="form-label">City</label>
+            <input type="text" class="form-control" id="cityInput" name="anything" [(ngModel)]="city" placeholder="Enter City Name">
+          </div>
+          <div class="col-md-6">
+            <label for="pincodeInput" class="form-label">Pincode</label>
+            <input type="text" class="form-control" id="pincodeInput" placeholder="Enter Pincode">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <label for="dateInput" class="form-label">Date</label>
+            <input type="date" class="form-control" id="dateInput">
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-12 text-center">
+            <button type="submit" class="btn btn-primary"> Check Weather</button>
+          </div>
+        </div>
+    </div>
+</div>
+      </form>
+{{city}}
+
+    
+    </div>

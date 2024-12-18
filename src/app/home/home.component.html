@@ -1,0 +1,43 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-5" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto me-5">
+          <a routerLink="" class="navC">Home</a>
+          <a routerLink="location" class="navC">Check Weather</a>
+          <!-- <a routerLink="weather">Pricing</a> -->
+         
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+  <div class="weather-container">
+    <div class="weather-details">
+      <div class="reg">{{ response.location.region }} , {{ response.location.country }}</div>
+      
+      <div class="temp">{{ response.current.temp_c}}°C</div>
+      
+      <div class="other">Weather Condition: {{ response.current.condition.text }}</div>
+      <div class="other">Wind speed: {{ response.current.wind_kph }} km/h</div>
+      <div class="other">Humidity level: {{ response.current.humidity }}</div>
+    </div>
+    <div class="sunny"></div>
+    <div [ngClass]=condition></div>
+  </div>
+
+  
+
+
+
+<ng-template #showItems>
+CONTENT
+
+ </ng-template>

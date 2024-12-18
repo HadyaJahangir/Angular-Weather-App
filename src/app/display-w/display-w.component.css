@@ -1,0 +1,111 @@
+.cont{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.reg{
+    font-size: 45px;
+    font-weight: 300;
+  }
+  
+  .temp{
+    font-size: 35px;
+  }
+  
+  .other{
+    font-size: 25px;
+  }
+
+
+
+  .cent{
+    text-align: center;
+
+  }
+
+  .rest{
+    display: flex;
+    margin-left: 2%;
+  }
+
+  .style{
+    margin-right: 20px;
+    width: 200px;
+  }
+  .navC{
+    text-decoration: none;
+    color: black;
+    margin-right:17px ;
+  }
+
+.Mist{
+    background-image: url(https://images.pexels.com/photos/158672/fog-forest-mountain-world-clouds-158672.jpeg?cs=srgb&dl=pexels-pixabay-158672.jpg&fm=jpg);
+    width: 100%; /* Make it span the whole width */
+    height: 90vh;
+    
+    background-size: cover;
+    overflow: hidden;
+    background-position: center center;
+    
+    scrollbar-width: none;
+  
+  
+
+}
+
+.cloudy{
+    background-image: url(https://images.freeimages.com/images/large-previews/294/partly-cloudy-1173077.jpg);
+    width: 100%; /* Make it span the whole width */
+    height: 90vh;
+    
+    background-size: cover;
+    overflow: hidden;
+    background-position: center center;
+    
+    scrollbar-width: none;
+  
+
+}
+
+.rain{
+    background-image: url(https://i.ytimg.com/vi/ieULeXtyRms/maxresdefault.jpg);
+    width: 100%; /* Make it span the whole width */
+    height: 90vh;
+    
+    background-size: cover;
+    overflow: hidden;
+    background-position: center center;
+    
+    scrollbar-width: none;
+  
+}
+
+.Sunny{
+    background-image: url(https://i2-prod.examinerlive.co.uk/incoming/article10372520.ece/ALTERNATES/s1227b/JS75768352.jpg);
+    
+  width: 100%; /* Make it span the whole width */
+  height: 90vh;
+  
+  background-size: cover;
+  overflow: hidden;
+  background-position: center center;
+  
+  scrollbar-width: none;
+
+}
+
+.Clear{
+    background-image: url(https://i2-prod.examinerlive.co.uk/incoming/article10372520.ece/ALTERNATES/s1227b/JS75768352.jpg);
+    width: 100%; /* Make it span the whole width */
+    height: 90vh;
+    
+    background-size: cover;
+    overflow: hidden;
+    background-position: center center;
+    
+    scrollbar-width: none;
+  
+}
